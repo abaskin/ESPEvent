@@ -3,19 +3,19 @@
 #include <functional>
 #include <queue>
 #include <unordered_map>
-    
-template <typename T, typename F> 
-class Event {
-  public:
-    Event(T idle) : m_idle(idle) {}
-    ~Event(){}
 
-    Event& enqueue(T event) {
+template <typename T, typename F>
+class ESPEvent {
+  public:
+    ESPEvent(T idle) : m_idle(idle) {}
+    ~ESPEvent(){}
+
+    ESPEvent& enqueue(T event) {
       m_eventQueue.emplace(event);
       return *this;
     }
 
-    Event& setFunction(T event, F function) {
+    ESPEvent& setFunction(T event, F function) {
       m_eventFunctions.emplace(event, function);
       return *this;
     }

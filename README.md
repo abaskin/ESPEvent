@@ -25,7 +25,7 @@ ESPEvent objectName(T idle);
 ## Object Methods
 
 ```c++
-Event& enqueue(T event)
+ESPEvent& enqueue(T event)
 ```
 
 - **event** - the event to enqueue
@@ -33,7 +33,7 @@ Event& enqueue(T event)
 Enqueue an event to be processed
 
 ```c++
-Event& setFunction(T event, F function)
+ESPEvent& setFunction(T event, F function)
 ```
 
 - **event** - the event to handle
