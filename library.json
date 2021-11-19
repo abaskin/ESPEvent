@@ -1,0 +1,33 @@
+{
+  "name": "ESPEvent",
+  "version": "1.0.0",
+  "description": "A simple event handling library for the ESP8266/ESP32.",
+  "keywords": "event",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/abaskin/ESPEvent"
+  },
+  "authors":
+  [
+    {
+      "name": "Andre Baskin",
+      "email": "andre@telatomica.com",
+      "url": "https://github.com/abaskin",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "exclude": [
+    ".github"
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
+  "dependencies":
+  {
+  }
+}

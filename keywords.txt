@@ -1,0 +1,12 @@
+# keywords for ESPEvent library
+
+# classes
+ESPEvent	KEYWORD1
+
+# functions
+enqueue	KEYWORD2
+setFunction	KEYWORD2
+run	KEYWORD2
+
+
+# constants
